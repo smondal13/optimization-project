@@ -1,1 +1,2 @@
-This repo is about reproducing the work of [Waldron et al. ](https://pubs.rsc.org/en/content/articlehtml/2019/re/c9re00342h)
+This repo is about partially following the work of [Waldron et al. ](https://pubs.rsc.org/en/content/articlehtml/2019/re/c9re00342h) using `parmest` for parameter estimation and `pyomo.doe` for optimizing experiments. Although in the original work, the authors solved an ODE instead of solving the PDE directly, in my example, I numerically solved the PDE directly. 
+This work is done as part of trying to implement DOE tools for some experiment design, not any exact reproduction of the original work. The model and the data were collected from the paper mentioned above.
